@@ -75,7 +75,6 @@ def formulario_persona(clave: str) -> pd.DataFrame:
 
 
 def configurar_pagina(titulo: str, icono: str = "🛡️") -> None:
-    st.set_page_config(page_title=titulo, page_icon=icono, layout="wide")
     st.markdown(
         """
         <style>
