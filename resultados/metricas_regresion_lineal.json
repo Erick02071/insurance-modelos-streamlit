@@ -1,0 +1,23 @@
+{
+  "modelo": "Regresion lineal multiple",
+  "objetivo": "charges",
+  "variables": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "registros_entrenamiento": 1069,
+  "registros_prueba": 268,
+  "cv_particiones": 5,
+  "cv_r2_promedio": 0.7227844561171829,
+  "cv_r2_desviacion": 0.03159521966260006,
+  "cv_mae_promedio": 4221.963301620319,
+  "cv_rmse_promedio": 6123.651283667275,
+  "test_r2": 0.8069287081198012,
+  "test_mae": 4177.045561036326,
+  "test_mse": 35478020.6752356,
+  "test_rmse": 5956.342894363587
+}

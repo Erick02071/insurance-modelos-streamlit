@@ -1,0 +1,29 @@
+{
+  "modelo": "Gaussian Naive Bayes",
+  "objetivo": "level",
+  "variables": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "clases": [
+    "alto",
+    "bajo",
+    "medio"
+  ],
+  "registros_entrenamiento": 1069,
+  "registros_prueba": 268,
+  "cv_particiones": 5,
+  "cv_accuracy_promedio": 0.7941994647009785,
+  "cv_accuracy_desviacion": 0.006622559524189808,
+  "cv_balanced_accuracy_promedio": 0.6883369963369963,
+  "cv_f1_macro_promedio": 0.6378810493503573,
+  "test_accuracy": 0.7985074626865671,
+  "test_balanced_accuracy": 0.6956449743334989,
+  "test_precision_macro": 0.8302714839763218,
+  "test_recall_macro": 0.6956449743334989,
+  "test_f1_macro": 0.6470592633088953
+}

@@ -1,0 +1,33 @@
+{
+  "modelo": "Support Vector Machine",
+  "kernel": "rbf",
+  "C": 1.0,
+  "gamma": "scale",
+  "calibracion_probabilidades": "sigmoid con 3 folds internos",
+  "objetivo": "level",
+  "variables": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "clases": [
+    "alto",
+    "bajo",
+    "medio"
+  ],
+  "registros_entrenamiento": 1069,
+  "registros_prueba": 268,
+  "cv_particiones": 5,
+  "cv_accuracy_promedio": 0.8718529243999825,
+  "cv_accuracy_desviacion": 0.026500687665388878,
+  "cv_balanced_accuracy_promedio": 0.833902638642618,
+  "cv_f1_macro_promedio": 0.8392686394352861,
+  "test_accuracy": 0.8880597014925373,
+  "test_balanced_accuracy": 0.8576437067109763,
+  "test_precision_macro": 0.8781084656084656,
+  "test_recall_macro": 0.8576437067109763,
+  "test_f1_macro": 0.8672557825100199
+}

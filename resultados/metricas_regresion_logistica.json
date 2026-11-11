@@ -1,0 +1,29 @@
+{
+  "modelo": "Regresion logistica multiclase",
+  "objetivo": "level",
+  "variables": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "clases": [
+    "alto",
+    "bajo",
+    "medio"
+  ],
+  "registros_entrenamiento": 1069,
+  "registros_prueba": 268,
+  "cv_particiones": 5,
+  "cv_accuracy_promedio": 0.8007546838664386,
+  "cv_accuracy_desviacion": 0.02608189185791729,
+  "cv_balanced_accuracy_promedio": 0.8052470475738719,
+  "cv_f1_macro_promedio": 0.7741704890301407,
+  "test_accuracy": 0.835820895522388,
+  "test_balanced_accuracy": 0.8272750112772725,
+  "test_precision_macro": 0.7858816990282684,
+  "test_recall_macro": 0.8272750112772725,
+  "test_f1_macro": 0.8043626185898775
+}

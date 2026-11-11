@@ -1,0 +1,27 @@
+{
+  "modelo": "Arbol de decision para regresion",
+  "objetivo": "charges",
+  "variables": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "parametros": {
+    "max_depth": 5,
+    "min_samples_leaf": 5
+  },
+  "registros_entrenamiento": 1069,
+  "registros_prueba": 268,
+  "cv_particiones": 5,
+  "cv_r2_promedio": 0.8310922303528485,
+  "cv_r2_desviacion": 0.031990723914191395,
+  "cv_mae_promedio": 2696.740737268191,
+  "cv_rmse_promedio": 4756.799161928744,
+  "test_r2": 0.8955247994386044,
+  "test_mae": 2585.563143949312,
+  "test_mse": 19197951.64506651,
+  "test_rmse": 4381.546718348044
+}

@@ -1,0 +1,30 @@
+{
+  "modelo": "K-Nearest Neighbors",
+  "parametro_k": 5,
+  "objetivo": "level",
+  "variables": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "clases": [
+    "alto",
+    "bajo",
+    "medio"
+  ],
+  "registros_entrenamiento": 1069,
+  "registros_prueba": 268,
+  "cv_particiones": 5,
+  "cv_accuracy_promedio": 0.8335263919968409,
+  "cv_accuracy_desviacion": 0.03312755978950823,
+  "cv_balanced_accuracy_promedio": 0.7420693373088029,
+  "cv_f1_macro_promedio": 0.7694148018442496,
+  "test_accuracy": 0.8470149253731343,
+  "test_balanced_accuracy": 0.7789883001867173,
+  "test_precision_macro": 0.8345633279040604,
+  "test_recall_macro": 0.7789883001867173,
+  "test_f1_macro": 0.8033896936762384
+}
