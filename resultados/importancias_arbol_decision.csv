@@ -1,0 +1,12 @@
+﻿variable,importancia
+categoricas__smoker_no,0.6912849101419586
+numericas__bmi,0.1733360904193427
+numericas__age,0.12039800072830031
+numericas__children,0.013203420785446706
+categoricas__region_northeast,0.001777577924951808
+categoricas__sex_male,0.0
+categoricas__sex_female,0.0
+categoricas__smoker_yes,0.0
+categoricas__region_northwest,0.0
+categoricas__region_southeast,0.0
+categoricas__region_southwest,0.0

@@ -1,0 +1,4 @@
+﻿age,bmi,children,sex,smoker,region,nivel_predicho,probabilidad_alto,probabilidad_bajo,probabilidad_medio
+19,22.0,0,female,no,southwest,bajo,0.0,1.0,0.0
+40,29.4,2,male,no,northeast,bajo,0.27893835503630127,0.7210616449636986,0.0
+58,38.1,1,male,yes,southeast,alto,1.0,0.0,0.0

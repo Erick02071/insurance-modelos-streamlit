@@ -1,0 +1,4 @@
+﻿age,bmi,children,sex,smoker,region,charges_predicho
+21,22.5,0,female,no,southwest,1827.3147644444446
+45,30.2,2,male,no,northwest,8761.53306468085
+58,36.8,1,female,yes,southeast,48497.649556250006
